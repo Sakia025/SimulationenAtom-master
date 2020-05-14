@@ -1,0 +1,15 @@
+{
+    "__default__" : {
+        "RAM" : "1GB",
+        "cores" : "1"
+    },
+    "targets" : {
+        "RAM" : "100MB"
+    },
+    "simulate" : {
+        "RAM" : "1GB",
+        "cores" : "1",
+        "log" : "ccb-plaque-build/{rule}.log",
+        "err" : "ccb-plaque-build/{rule}.err",
+    }
+}

@@ -1,0 +1,5 @@
+cd
+cd /Users/smller/Simulationen/ccb-plaque-build
+cmake -DGeant4_DIR=/Users/smller/geant4.10.06-install/lib/Geant4-10.6.1 /Users/smller/Simulationen/ccb-plaque
+make -j4
+./ccbPlaque

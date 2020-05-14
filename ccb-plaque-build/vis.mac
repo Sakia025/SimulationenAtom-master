@@ -1,0 +1,29 @@
+####################################################
+# GEANT4 VCGLIB/CAD INTERFACE - basic example
+#
+# File:      vis.mac
+#
+# Author:    Christopher M Poole,
+# Email:     mail@christopherpoole.net
+#
+# Date:      20th March, 2011
+####################################################
+
+/run/initialize
+
+/vis/open OGL 600x600-0+0
+
+/vis/viewer/set/autoRefresh false
+
+/vis/drawVolume
+
+/vis/viewer/set/style wireframe
+
+/vis/scene/add/trajectories smooth
+/vis/modeling/trajectories/create/drawByCharge
+/vis/scene/endOfEventAction refresh #accumulate
+
+/vis/geometry/set/visibility World 0 false
+
+/vis/viewer/set/autoRefresh false
+/vis/verbose warnings

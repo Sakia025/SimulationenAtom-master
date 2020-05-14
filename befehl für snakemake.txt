@@ -1,0 +1,1 @@
+snakemake --use-singularity --singularity-args="--bind /net,/run,/ceph --home $HOME --cleanenv" -j 800 --cluster-config cluster.json --latency-wait 60 --drmaa $' getenv=True \n output = {cluster.log} \n error = {cluster.err} \n request_cpus = {threads} \n request_memory = {cluster.RAM} \n +MaxRunHours=3'

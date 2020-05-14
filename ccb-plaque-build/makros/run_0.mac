@@ -1,0 +1,23 @@
+#/mycommands/addPhysics emstandard_opt4
+/random/setSeeds 51706750 56448163
+/run/setCut 0.01 mm
+/run/initialize
+/control/verbose 0 
+/run/verbose 0 
+/event/verbose 0 
+/tracking/verbose 0 
+
+
+/mycommands/setFileName Daten/daten_0
+/gps/particle ion 
+/gps/ion 44 106 0 0.0
+/gps/energy 0. keV
+/gps/pos/type Surface
+/gps/pos/shape Sphere
+/gps/pos/radius 12.1 mm
+/gps/pos/centre 0. 0. 0.1 mm 
+/gps/ang/type iso
+/gps/pos/confine Target_silver_PV
+
+
+/run/beamOn 10000
