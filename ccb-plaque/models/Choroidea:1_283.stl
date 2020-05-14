@@ -1,0 +1,30 @@
+solid ASCII
+  facet normal 3.568241e-01 -6.513788e-01 -6.696135e-01
+    outer loop
+      vertex   4.029324e+00 -7.000000e+00 -8.000000e+00
+      vertex   4.000000e+00 -7.016064e+00 -8.000000e+00
+      vertex   4.000000e+00 -7.000000e+00 -8.015626e+00
+    endloop
+  endfacet
+  facet normal -1.000000e+00 0.000000e+00 0.000000e+00
+    outer loop
+      vertex   4.000000e+00 -7.000000e+00 -8.015626e+00
+      vertex   4.000000e+00 -7.016064e+00 -8.000000e+00
+      vertex   4.000000e+00 -7.000000e+00 -8.000000e+00
+    endloop
+  endfacet
+  facet normal 0.000000e+00 0.000000e+00 1.000000e+00
+    outer loop
+      vertex   4.000000e+00 -7.016064e+00 -8.000000e+00
+      vertex   4.029324e+00 -7.000000e+00 -8.000000e+00
+      vertex   4.000000e+00 -7.000000e+00 -8.000000e+00
+    endloop
+  endfacet
+  facet normal 0.000000e+00 1.000000e+00 0.000000e+00
+    outer loop
+      vertex   4.029324e+00 -7.000000e+00 -8.000000e+00
+      vertex   4.000000e+00 -7.000000e+00 -8.015626e+00
+      vertex   4.000000e+00 -7.000000e+00 -8.000000e+00
+    endloop
+  endfacet
+endsolid
